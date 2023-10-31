@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message DataRequest {
+
+}
+
+message DataResponse {
+ 
+}
+
+service YourService {
+  rpc GetData(DataRequest) returns (DataResponse);
+}
